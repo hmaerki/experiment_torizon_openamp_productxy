@@ -21,4 +21,6 @@ IMAGE_INSTALL:append = " \
     xz \
     file \
     gperf \
+    openocd \
+    uv \
 "
