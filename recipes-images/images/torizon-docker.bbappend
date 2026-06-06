@@ -19,6 +19,8 @@ IMAGE_INSTALL:append = " \
     uv \
 "
 
+IMAGE_INSTALL:append:verdin-imx8mp = " imx-m7-demos"
+
 # Files already included in Zephyr SDK
 #    gcc \
 #    g++ \
