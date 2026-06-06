@@ -20,7 +20,7 @@ IMAGE_INSTALL:append = " \
     uv \
 "
 
-IMAGE_INSTALL:append:verdin-imx8mp = " imx-m7-demos"
+IMAGE_INSTALL:append:verdin-imx8mp = " imx-m7-demos kernel-module-netconsole"
 
 # Files already included in Zephyr SDK
 #    gcc \
