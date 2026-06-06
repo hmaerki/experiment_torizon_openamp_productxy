@@ -6,12 +6,6 @@
 
 IMAGE_INSTALL:append = " \
     git \
-    gcc \
-    g++ \
-    binutils \
-    make \
-    cmake \
-    ninja \
     python3 \
     python3-pip \
     python3-setuptools \
@@ -24,3 +18,12 @@ IMAGE_INSTALL:append = " \
     openocd \
     uv \
 "
+
+# Files already included in Zephyr SDK
+#    gcc \
+#    g++ \
+#    binutils \
+#    make \
+#    cmake \
+#    ninja \
+#
