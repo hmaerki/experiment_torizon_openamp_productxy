@@ -1,0 +1,5 @@
+#!/bin/sh
+
+EULA="1"
+
+. layers/meta-toradex-torizon/scripts/setup-environment $@
